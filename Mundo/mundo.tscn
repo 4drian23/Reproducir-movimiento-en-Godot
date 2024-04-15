@@ -1,0 +1,96 @@
+[gd_scene load_steps=3 format=3 uid="uid://bigihkpkrr2cr"]
+
+[ext_resource type="PackedScene" uid="uid://dbk4fcefa80ah" path="res://Plataformas/plataforma.tscn" id="1_uogqy"]
+[ext_resource type="PackedScene" uid="uid://dy4leq0nleie" path="res://Personaje/personaje.tscn" id="2_n21h7"]
+
+[node name="Mundo" type="Node2D"]
+
+[node name="paredes" type="Node" parent="."]
+
+[node name="Plataforma" parent="paredes" instance=ExtResource("1_uogqy")]
+position = Vector2(575, 627)
+scale = Vector2(8.8322, -0.27804)
+
+[node name="Plataforma2" parent="paredes" instance=ExtResource("1_uogqy")]
+position = Vector2(575, 21)
+scale = Vector2(8.8322, -0.27804)
+
+[node name="Plataforma3" parent="paredes" instance=ExtResource("1_uogqy")]
+position = Vector2(1132, 323)
+rotation = 1.57082
+scale = Vector2(4.3922, -0.27804)
+
+[node name="Plataforma4" parent="paredes" instance=ExtResource("1_uogqy")]
+position = Vector2(19, 322)
+rotation = 1.57082
+scale = Vector2(4.3922, -0.27804)
+
+[node name="plataformas" type="Node" parent="."]
+
+[node name="Plataforma4" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(97, 341)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma5" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(246, 248)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma6" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(288, 434)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma7" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(526, 368)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma8" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(430, 369)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma9" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(292, 133)
+rotation = 1.5708
+scale = Vector2(1.447, -0.278)
+
+[node name="Plataforma10" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(364, 395)
+rotation = 2.14675
+scale = Vector2(0.607, -0.278)
+
+[node name="Plataforma11" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(642, 367)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma12" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(751, 381)
+rotation = -2.88154
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma13" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(854, 420)
+rotation = -2.66512
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma14" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(1051, 491)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma15" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(840, 341)
+rotation = 3.13965
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Plataforma16" parent="plataformas" instance=ExtResource("1_uogqy")]
+position = Vector2(934, 496)
+rotation = -2.66512
+scale = Vector2(0.911816, -0.27804)
+
+[node name="Personaje" parent="." instance=ExtResource("2_n21h7")]
+position = Vector2(221, 161)

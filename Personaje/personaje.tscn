@@ -1,12 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://dy4leq0nleie"]
+[gd_scene load_steps=4 format=3 uid="uid://dy4leq0nleie"]
 
-[ext_resource type="Texture2D" uid="uid://b2d7iv8lf2l0v" path="res://icon.svg" id="1_7jdkc"]
 [ext_resource type="Script" path="res://Personaje/personaje.gd" id="1_jm5ml"]
+[ext_resource type="Texture2D" uid="uid://dw3iybqu2gt62" path="res://assets/58afdad6829958a978a4a693.png" id="2_ke280"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lye7f"]
+radius = 27.0
 
 [node name="Personaje" type="CharacterBody2D"]
 script = ExtResource("1_jm5ml")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_lye7f")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_7jdkc")
+position = Vector2(0.0401394, 0.0460421)
+rotation = 6.072
+scale = Vector2(0.0262877, 0.0258674)
+texture = ExtResource("2_ke280")
+
+[node name="panel" type="Label" parent="."]
+offset_left = -17.0
+offset_top = -91.0
+offset_right = 23.0
+offset_bottom = -68.0
