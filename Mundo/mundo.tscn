@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://bigihkpkrr2cr"]
+[gd_scene load_steps=4 format=3 uid="uid://bigihkpkrr2cr"]
 
+[ext_resource type="Script" path="res://Mundo/mundo.gd" id="1_txdbq"]
 [ext_resource type="PackedScene" uid="uid://dbk4fcefa80ah" path="res://Plataformas/plataforma.tscn" id="1_uogqy"]
 [ext_resource type="PackedScene" uid="uid://dy4leq0nleie" path="res://Personaje/personaje.tscn" id="2_n21h7"]
 
 [node name="Mundo" type="Node2D"]
+script = ExtResource("1_txdbq")
 
 [node name="paredes" type="Node" parent="."]
 
@@ -94,3 +96,9 @@ scale = Vector2(0.911816, -0.27804)
 
 [node name="Personaje" parent="." instance=ExtResource("2_n21h7")]
 position = Vector2(220, 116)
+
+[node name="Comandos" type="Label" parent="."]
+offset_left = 896.0
+offset_top = 64.0
+offset_right = 1088.0
+offset_bottom = 178.0
