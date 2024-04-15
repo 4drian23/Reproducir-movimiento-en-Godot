@@ -28,7 +28,7 @@ scale = Vector2(4.3922, -0.27804)
 [node name="plataformas" type="Node" parent="."]
 
 [node name="Plataforma4" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(97, 341)
+position = Vector2(97, 358)
 rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
@@ -38,17 +38,17 @@ rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma6" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(288, 434)
+position = Vector2(260, 532)
 rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma7" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(526, 368)
+position = Vector2(498, 466)
 rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma8" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(430, 369)
+position = Vector2(402, 467)
 rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
@@ -58,22 +58,22 @@ rotation = 1.5708
 scale = Vector2(1.447, -0.278)
 
 [node name="Plataforma10" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(364, 395)
+position = Vector2(336, 493)
 rotation = 2.14675
 scale = Vector2(0.607, -0.278)
 
 [node name="Plataforma11" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(642, 367)
+position = Vector2(614, 465)
 rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma12" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(751, 381)
+position = Vector2(723, 479)
 rotation = -2.88154
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma13" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(854, 420)
+position = Vector2(826, 518)
 rotation = -2.66512
 scale = Vector2(0.911816, -0.27804)
 
@@ -83,14 +83,14 @@ rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma15" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(840, 341)
+position = Vector2(791, 350)
 rotation = 3.13965
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Plataforma16" parent="plataformas" instance=ExtResource("1_uogqy")]
-position = Vector2(934, 496)
+position = Vector2(906, 594)
 rotation = -2.66512
 scale = Vector2(0.911816, -0.27804)
 
 [node name="Personaje" parent="." instance=ExtResource("2_n21h7")]
-position = Vector2(221, 161)
+position = Vector2(220, 116)
